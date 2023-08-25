@@ -7,8 +7,7 @@ The Telegram Keylogger Bot is a Python script that leverages the Telegram Bot AP
 
 <h4>Demonstration Image:</h4>
 
-![Demonstration Image](pics/keylogger_telegram bot.jpg)
-
+![Demonstration Image](pics/keylogger_telegram_bot.jpg)
 
 <h2 align="center">Features</h2>
 
