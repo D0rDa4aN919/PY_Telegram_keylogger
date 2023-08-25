@@ -1,5 +1,5 @@
 ##############################################################################
-# TelegramBot_C2C_Py - keylogger_bot.py - Python Script
+# PY_Telegram_keylogger - keylogger_bot.py - Python Script
 # Description: Act as key logger and use Telegram API bot to send the logs to the group chat 
 # Author: Dor Dahan
 # License: MIT (See details in the LICENSE file or at the end of this script)
