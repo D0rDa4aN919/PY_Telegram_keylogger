@@ -1,6 +1,13 @@
 <h1 align="center">PY_Telegram_keylogger</h1>
 The Telegram Keylogger Bot is a Python script that leverages the Telegram Bot API to establish a covert communication channel with remote agents (Telegram bots acting as agents). This tool allows you to upload the keylogger logs throw the WAN without using any other configuration and using a reliable platform and legitmate API calls.
 
+<h4>Demonstration Diagram:</h4>
+
+!(Demonstration Diagram)[key_log_bot.jpg]
+
+<h4>Demonstration Diagram:</h4>
+
+!(Demonstration Image)[pics/keylogger_telegram bot.jpg]
 
 <h2 align="center">Features</h2>
 
