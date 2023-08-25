@@ -30,12 +30,12 @@ The Telegram Keylogger Bot is a Python script that leverages the Telegram Bot AP
 
 - Replace the TOKEN and CHAT_ID values in the script with your own bot's API token and desired chat ID.
 
-- Run the script:
+- Run the script in the target side:
 
   ```
   python keyboard_bot.py
   ```
-  
+
 - The keylogger will capture key presses and send them to the specified Telegram chat.
 
 <h2 align="center">Disclaimer</h2>
